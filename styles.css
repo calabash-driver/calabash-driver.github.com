@@ -1,0 +1,71 @@
+html, body {
+	margin: 0; padding: 0;
+	height: 100%;
+}
+ 
+body {
+	background: #FFC000;
+	font-family:CentSchbook Mono BT, Bitstream Vera Sans Mono, monofont, monospace;
+	font-weight: bold;
+}
+ 
+#floater {
+	position: relative; float: left;
+	height: 50%; margin-bottom: -200px;
+	width: 1px;
+}
+ 
+#centered {
+	position:relative; clear:left;
+	height:450px; width:80%; max-width:1000px; min-width:450px;
+	margin:0 auto;
+	background:#fefefe;
+}
+
+a {
+	color:#FFC000; 
+	text-decoration:none;
+}
+a:hover { 
+	text-decoration:underline; 
+}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.box_round {
+     -moz-border-radius: 12px; /* FF1-3.6 */
+  -webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+          border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+          
+  /* useful if you don't want a bg color from leaking outside the border: */        
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+
+@font-face {
+	font-family:monofont;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMono.ttf) format("truetype");
+}
+@font-face {
+	font-family:monofont;
+	font-style:italic;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMoIt.ttf) format("truetype");
+}
+@font-face {
+	font-family:monofont;
+	font-weight:bold;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMoBd.ttf) format("truetype");
+}
+@font-face {
+	font-family:monofont;
+	font-style:italic;
+	font-weight:bold;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMoBI.ttf) format("truetype");
+}
