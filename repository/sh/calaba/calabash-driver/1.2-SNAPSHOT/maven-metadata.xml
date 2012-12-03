@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>sh.calaba</groupId>
+  <artifactId>calabash-driver</artifactId>
+  <version>1.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20121203.133642</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20121203133642</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2-20121203.133642-3</value>
+        <updated>20121203133642</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
